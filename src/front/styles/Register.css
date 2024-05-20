@@ -1,0 +1,36 @@
+.register {
+    border: solid rgb(9, 111, 145) 4px;
+    width: 40vw;
+    background-color: rgba(24, 163, 209, 0.7); 
+    position: relative; 
+    padding: 20px; 
+    margin: auto; 
+}
+.register h2 {
+    text-align: center; 
+}
+.register form {
+    width: 100%; 
+}
+.register input[type="email"],
+.register input[type="password"] {
+    width: calc(100% - 40px); 
+    margin-bottom: 15px; 
+}
+.invalid-feedback {
+    color: red; 
+    font-size: 0.9em; 
+}
+.register button[type="submit"] {
+    width: 100%; 
+    background-color: rgb(9, 111, 145); 
+    color: white; 
+    border: none; 
+    padding: 10px; 
+    font-size: 1em; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+.register button[type="submit"]:hover {
+    background-color: rgb(6, 87, 112); 
+}

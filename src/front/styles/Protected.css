@@ -1,0 +1,19 @@
+#protectedContainer {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(24, 163, 209, 0.7); 
+    border: solid rgb(9, 111, 145) 4px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#protectedH1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#protectedP {
+    font-size: 1.2rem;
+}
+
