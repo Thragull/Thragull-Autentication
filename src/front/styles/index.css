@@ -1,3 +1,28 @@
 /* 
     General Styles used on every website (Don't Repeat Yourself)
 */
+
+body {
+    background-image: url("https://res.cloudinary.com/ddlxctjxo/image/upload/v1716140953/Projects%20IMGs/AutenticationBG_cxgymo.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.navbar, footer {
+    background-color: #104c88d7;
+}
+
+#logo {
+    height: 5vh;
+}
+
+.content {
+    padding-bottom: 4rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+

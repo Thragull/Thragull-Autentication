@@ -5,3 +5,62 @@
     one more css for each page that will contain the selected used 
     on that page only (the ones not reused in other pages).
 */
+
+header.jumbotron {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://res.cloudinary.com/ddlxctjxo/image/upload/v1716195719/Projects%20IMGs/_4d62426f-cb82-4387-9e5e-f90b6aeb0363_pr33ex.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header .display-4 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+header .lead {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+header .btn {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+}
+
+#about, #features {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 50px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+#about h2, #features h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#about p, #features p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+section#about img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section#features .fa {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+#projectImg{
+    max-width: 400px;
+    max-height: 300px;
+}
