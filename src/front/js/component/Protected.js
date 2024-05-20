@@ -24,7 +24,7 @@ const Protected = () => {
             }
         };
         verifyAccess();
-    }, [actions, navigate]);
+    }, []);
 
     if (loading) {
         return <LoadingSpinner />; // Muestra un spinner de carga mientras se verifica el acceso
